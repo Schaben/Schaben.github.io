@@ -1,0 +1,125 @@
+<html>
+	<head>
+
+		<link type="text/css" rel="stylesheet" href="main.css" />
+
+		<title>Basketball Legends</title> 
+
+		<script>
+		  function banner(){
+		  	var text=confirm("You Rang?")
+		  	return text;
+		  }
+
+		  function answer(){
+		  	var radio=document.getElementsByName("trivia");
+			var selection = false;
+			var message = "";
+			for( var i = 0; i < radio.length; i++) {
+			if(radio[i].value == "yes" && radio[i].checked == true) {
+			selection = true;
+			} //end if statement
+			} //end for loop
+
+			if(selection == true) {
+			message = message + "<b><p style='color:green'>Way to go!</p></b>";
+			} else {
+			message = message + "<b><p style='color:red'>Try again my friend.</p></b>";
+			}
+			document.getElementById("response").innerHTML = message;
+
+
+		  } //end function answer
+		</script>
+	
+	</head>
+
+	<a onclick="return banner()" href="https://hawkeyesports.com/">
+		<body><body id="background">
+		<header id="banner"> <span class="color-words">I coded</span> this</header>
+	</a>
+
+		<nav>
+			<ul id="navmenu">
+				<li class="navitem"><a href="index.html">Home</a></li>
+				<li class="navitem"><a href="games.html">Videos</a></li>
+				<li class="navitem"><a href="videos.html">Games</a></li>
+			</ul>
+		</nav>
+
+	<a href="#" class="link">Click Me</a>
+
+
+		<div class="rightside">
+		<center>
+			<div class="video">
+
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/TQN4Ckr4xaA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+		    </div>
+
+			<audio width="400" height="220" controls autoplay>
+        	<source src="http://www.w3schools.com/tags/horse.mp3" type="audio/mpeg">
+        	Your browser does not support HTML 5 audio.
+       		</audio>
+       	</center>
+		</div>
+
+		<div class"leftside">
+
+			<h1>Basketball Legends</h1>
+
+		<p> 
+			Basketball having many legends and all time greats who have played the game exceptionally well. They earned their talent through <strong> hard</strong><u> work</u> <i>and</i> practice. The <u>best are inducted</u> in the NBA hall of fame. Some Hall of Famers are above the rest.
+		</p>
+
+		</ol>
+
+		
+			<h2>Basketball Trivia Question:</h2>
+
+			<p class="Question">Who won the MVP award in the 1993-94 NBA season?</p> 
+
+			<div class="wrap-trivia">
+
+					<form>
+						<div id="response"></div>
+						<input type="radio" name="trivia" value="no">Charles Barkley <br>
+						<input type="radio" name="trivia" value="no"> Michael Jordan <br>
+						<input type="radio" name="trivia" value="no">Stephen Curry <br>
+						<input type="radio" name="trivia" value="yes">Hakeem Olajuwon <br>
+						<input onclick="answer()" type="button" value="Submit" id="button">
+					</form>
+
+
+           </div>
+
+		
+
+		<div class="clearfloat"></div>
+
+
+
+		<img class="image" width="35%" src="https://thumbs.dreamstime.com/z/basketball-shot-17516508.jpg"/>
+
+        <img class="image" width="35%" src="https://thumbs.dreamstime.com/z/nba-lakers-celtics-finals-5448590.jpg"/>
+
+        <img class="image" width="35%" src="https://thumbs.dreamstime.com/z/michael-jordan-chicago-bulls-26550497.jpg"/>
+
+        <img class="image" width="35%" src="https://thumbs.dreamstime.com/z/basketball-players-man-jumping-dunking-silhouette-two-men-caucasian-african-competition-isolated-white-background-38689346.jpg"/>
+		<hr/>
+
+		<center>Isaac and Evan Schaben<a href="https://course.wigglesaway.com/courses/wiggles-away"> My Favorite Website</a>
+		</center>
+
+					<div class="wrap-around-list">
+			  
+
+						<li class="listitem"> Practice</li>
+						<li class="listitem">Hall of Fame</li> 
+						<li class="listitem">Best</li>
+
+					</div>
+				<footer id="footer">Who? Isaac! </footer>
+	</body>
+</html>

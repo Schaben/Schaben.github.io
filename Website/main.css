@@ -1,0 +1,165 @@
+ p{
+	color:blue;
+	font-size: 24px;
+	margin-bottom:66px; 
+}
+
+.listitem{
+	color:green;
+	font-size:30px;
+}
+
+.Question{
+	color:brown;
+	font-size:26px;
+	margin-bottom:15px;
+}
+
+
+
+#button{
+width:300px;
+height:100px;
+color:white;
+background-color:darkblue;
+border-radius:15px;
+font-size:75px;
+margin-top:10px;
+}
+
+
+.paragraph {
+color:blue;
+font-size:2.5em;
+}
+
+#background{
+	background-color:lightblue;
+}
+ 
+ #banner {
+height:150px;
+width:99%;
+border:15px dotted black;
+background-color:#006600;
+text-align:center;
+font-size:125px;
+margin-bottom:75px;
+}
+
+#footer{
+	height:150px;
+width:99%;
+border:15px dotted black;
+background-color:#006600;
+text-align:center;
+font-size:125px;
+margin-top:75px;
+margin-bottom:50px;
+}
+
+
+.wrap-around-list {
+width: 200px;
+border-radius: 10px;
+border: 5px double purple;
+}
+
+.wrap-trivia {
+height: 300px;
+width: 300px;
+border: 5px double yellow;
+margin-bottom:10px;
+padding:30px;
+}
+
+.color-words{
+	color:#ffff00;
+	font-size:100px;
+	font-style:underline;
+}
+
+#one {
+height: 250px;
+width: 250px;
+background-color: blue;
+display: inline-block;
+position:relative;
+top:230px;
+left:650px;
+z-index:2;
+
+}
+
+#two {
+height: 150px;
+width: 150px;
+background-color: pink;
+display: inline-block;
+position:absolute;
+z-index:1;
+position:fixed;
+left:675px;
+}
+
+#three {
+height: 150px;
+width: 150px;
+background-color: green;
+display: inline-block;
+position:absolute;
+}
+
+#background-h{
+	height: 2048px;
+}
+
+.navitem{
+	list-style-type:none;
+	display:inline;
+	margin:.3em;
+	padding:3px 5px; 
+}
+
+#navmenu{
+	text-align:center;
+	background-color:pink;
+	color:black;
+}
+
+a:link{
+	color:#00ffff;
+}
+
+a:visited{
+	color:#ffff00;
+}
+
+a:hover{
+	color:#00802b;
+}
+
+a:active{
+	color:#ff1a75;
+}
+
+.rightside{
+	float:right;
+	width:48%;
+}
+
+.leftside{
+	width:48%;
+}
+
+.clearfloat{
+	clear:both;
+}
+
+.video{
+	margin-bottom:22px;
+}
+
+.image{
+	height:370.6px;
+}
